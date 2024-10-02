@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="好文收藏, hhs1231博客">
+    <meta name="keywords" content="git提交删除等操作, hhs1231博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>好文收藏 | hhs1231博客</title>
+    <title>git提交删除等操作 | hhs1231博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -251,12 +251,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">好文收藏</h1>
+                    <h1 class="description center-align post-title">git提交删除等操作</h1>
                 </div>
             </div>
         </div>
@@ -392,21 +392,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-10-01
+                    2024-10-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-10-01
+                    2024-10-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    63
+                    169
                 </div>
                 
 
@@ -441,13 +441,24 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ol>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/273773.html?f=member_collections">我的八年博士生涯</a>         </li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285040.html?f=member_collections">我曾是性用品微商</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285320.html">乔布斯回归：从任性国王到铁腕企业家</a></li>
-<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/a2rscuxJ0fl07OJ-0Shxfg">那些简历造假拿 Offer 的程序员，后来都怎么样了？</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285502.html">知网是个什么东西啊，好暴利</a></li>
-</ol>
+                <p>同步远程仓库</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> pull<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>确定要提交的范围（.代表全部，有文件名仅提交单个）</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> <span class="token function">add</span> 文件名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>删除文件需要在写原因之前确定删除的文件，需要选择的范围是全部，添加等操作不需要此操作</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> <span class="token function">rm</span> 文件名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>编写此次提交的原因等信息</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"注释"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>连接对应仓库（origin是笔记本应用盘中的位置，origin2是台式副硬盘中的位置，origin3是笔记本中非系统总盘中的位置，现在已经不需要了）</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> remote <span class="token function">add</span> origin 地址（此仓库为https://gitee.com/hhs1231/c-learning.git）<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>提交</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> push<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
 
                 
             </div>
@@ -474,7 +485,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://hhs1231.gitlab.io/goodpapers/index.html">http://hhs1231.gitlab.io/goodpapers/index.html</a>
+                    <a href="http://hhs1231.gitlab.io/2024/10/03/git-ti-jiao-shan-chu-deng-cao-zuo/">http://hhs1231.gitlab.io/2024/10/03/git-ti-jiao-shan-chu-deng-cao-zuo/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -679,18 +690,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/goodpapers/index.html">
+                <a href="/2024/10/03/da-jian-bo-ke/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="好文收藏">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="hexo-matery版本(gitlab)">
                         
-                        <span class="card-title">好文收藏</span>
+                        <span class="card-title">hexo-matery版本(gitlab)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -700,9 +710,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-10-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -711,7 +721,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -719,16 +728,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/goodpapers/index.html">
+                <a href="/2024/10/03/c-ji-chu-bu-fen/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="好文收藏">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="基础部分笔记">
                         
-                        <span class="card-title">好文收藏</span>
+                        <span class="card-title">基础部分笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -739,7 +748,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-03
                             </span>
                         <span class="publish-author">
                             
@@ -749,7 +758,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>

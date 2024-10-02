@@ -6,7 +6,7 @@
   <link href="http://hhs1231.gitlab.io/atom.xml" rel="self"/>
   
   <link href="http://hhs1231.gitlab.io/"/>
-  <updated>2024-09-30T17:31:18.183Z</updated>
+  <updated>2024-10-02T18:34:59.936Z</updated>
   <id>http://hhs1231.gitlab.io/</id>
   
   <author>
@@ -15,6 +15,158 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>并发</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/wu-bing-fa/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/wu-bing-fa/</id>
+    <published>2024-10-02T18:25:14.848Z</published>
+    <updated>2024-10-02T18:34:59.936Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;进程&quot;&gt;&lt;a href=&quot;#进程&quot; class=&quot;headerlink&quot; title=&quot;进程&quot;&gt;&lt;/a&gt;进程&lt;/h2&gt;&lt;h3 id=&quot;命令&quot;&gt;&lt;a href=&quot;#命令&quot; class=&quot;headerlink&quot; title=&quot;命令&quot;&gt;&lt;/a&gt;命令&lt;/h3&gt;&lt;p&gt;ps</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>IO</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/si-io/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/si-io/</id>
+    <published>2024-10-02T18:25:14.846Z</published>
+    <updated>2024-10-02T18:35:02.187Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;标准IO：通过缓冲（缓存）减少系统调用，提高效率&lt;/p&gt;
+&lt;p&gt;无系统代码直接调用硬件，有系统用系统&lt;/p&gt;
+&lt;h2 id=&quot;流（标准IO）&quot;&gt;&lt;a href=&quot;#流（标准IO）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/san-shu-ju-jie-gou/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/san-shu-ju-jie-gou/</id>
+    <published>2024-10-02T18:25:14.844Z</published>
+    <updated>2024-10-02T18:35:04.627Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;perror打印错误信息&lt;/p&gt;
+&lt;h2 id=&quot;线性表&quot;&gt;&lt;a href=&quot;#线性表&quot; class=&quot;headerlink&quot; title=&quot;线性表&quot;&gt;&lt;/a&gt;线性表&lt;/h2&gt;&lt;p&gt;结构体定义可放于.h，在对应程序引用&lt;/p&gt;
+&lt;h2 id=&quot;队列&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网络编程</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/liu-wang-luo-ji-chu/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/liu-wang-luo-ji-chu/</id>
+    <published>2024-10-02T18:25:14.843Z</published>
+    <updated>2024-10-02T18:35:06.817Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;各层典型协议&quot;&gt;&lt;a href=&quot;#各层典型协议&quot; class=&quot;headerlink&quot; title=&quot;各层典型协议&quot;&gt;&lt;/a&gt;各层典型协议&lt;/h2&gt;&lt;h3 id=&quot;网络接口与物理层&quot;&gt;&lt;a href=&quot;#网络接口与物理层&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-matery版本(gitlab)</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/da-jian-bo-ke/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/da-jian-bo-ke/</id>
+    <published>2024-10-02T18:25:14.842Z</published>
+    <updated>2024-10-02T18:35:12.451Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;&lt;span aria-hidden=&quot;true&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git提交删除等操作</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/git-ti-jiao-shan-chu-deng-cao-zuo/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/git-ti-jiao-shan-chu-deng-cao-zuo/</id>
+    <published>2024-10-02T18:25:14.841Z</published>
+    <updated>2024-10-02T18:30:59.579Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;同步远程仓库&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>基础部分笔记</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/c-ji-chu-bu-fen/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/c-ji-chu-bu-fen/</id>
+    <published>2024-10-02T18:25:14.839Z</published>
+    <updated>2024-10-02T18:43:06.066Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-数据类型&quot;&gt;&lt;a href=&quot;#1-数据类型&quot; class=&quot;headerlink&quot; title=&quot;1.数据类型&quot;&gt;&lt;/a&gt;1.数据类型&lt;/h3&gt;&lt;h5 id=&quot;基本类型&quot;&gt;&lt;a href=&quot;#基本类型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="好文收藏, hhs1231博客">
+    <meta name="keywords" content="数据结构, hhs1231博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>好文收藏 | hhs1231博客</title>
+    <title>数据结构 | hhs1231博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -251,12 +251,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">好文收藏</h1>
+                    <h1 class="description center-align post-title">数据结构</h1>
                 </div>
             </div>
         </div>
@@ -392,28 +392,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-10-01
+                    2024-10-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-10-01
+                    2024-10-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    63
+                    1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -441,13 +441,48 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ol>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/273773.html?f=member_collections">我的八年博士生涯</a>         </li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285040.html?f=member_collections">我曾是性用品微商</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285320.html">乔布斯回归：从任性国王到铁腕企业家</a></li>
-<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/a2rscuxJ0fl07OJ-0Shxfg">那些简历造假拿 Offer 的程序员，后来都怎么样了？</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285502.html">知网是个什么东西啊，好暴利</a></li>
-</ol>
+                <p>perror打印错误信息</p>
+<h2 id="线性表"><a href="#线性表" class="headerlink" title="线性表"></a>线性表</h2><p>结构体定义可放于.h，在对应程序引用</p>
+<h2 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h2><p>当编译器输入不是想要的数据类型，该数据会变成脏数据，如果是循环中发生会导致持续读取到该脏数据</p>
+<h2 id="树"><a href="#树" class="headerlink" title="树"></a>树</h2><p>度：结点的子树个数</p>
+<p>结点的度个数最多的就是整个树的度</p>
+<p>深度：树的分支中元素最多的就是该树的深度</p>
+<p>父节点：某个结点的上一级</p>
+<p>兄弟结点：同一层级的几个结点之间互为兄弟结点</p>
+<h3 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h3><p>数和二叉树的区别是结构类似的情况，树是相同的，二叉树是不同的</p>
+<p>满二叉树每层结点个数为2的（n-1）次方，结点数为2的n次方减一个</p>
+<p>度为0的结点总是比度为2的结点多一个</p>
+<p>完全二叉树对比满二叉树的区别为最下面的结点少若干个（全无也可以），满二叉树也是特殊的完全二叉树</p>
+<p>完全二叉树的深度为n时，结点数为log（</p>
+<h4 id="二叉树的顺序存储结构（浪费空间）"><a href="#二叉树的顺序存储结构（浪费空间）" class="headerlink" title="二叉树的顺序存储结构（浪费空间）"></a>二叉树的顺序存储结构（浪费空间）</h4><p>申请连续的存储空间；不是完全二叉树补成完全二叉树；按从左往右、从上到下编号；按编号存储到连续空间中，结点为虚节点（没有的）的用特殊符号标识</p>
+<h4 id="二叉树的链式存储结构（保存数据可用栈）"><a href="#二叉树的链式存储结构（保存数据可用栈）" class="headerlink" title="二叉树的链式存储结构（保存数据可用栈）"></a>二叉树的链式存储结构（保存数据可用栈）</h4><p>左子树地址&#x2F;数据&#x2F;右子树地址</p>
+<p>遍历方式：上到下（较复杂，需要使用队列，存在左&#x2F;右结点就放入队列），左到右（用的多，非递归方式为根结点和左结点先输出，右结点先放入栈中后续再取出执行，需要欧用循环），右到左</p>
+<p>输入二叉树结构和顺序存储差不多，用前序序列，没有结点的用#代替</p>
+<h4 id="序列（前中后序列与根的位置有关）"><a href="#序列（前中后序列与根的位置有关）" class="headerlink" title="序列（前中后序列与根的位置有关）"></a>序列（前中后序列与根的位置有关）</h4><p>前序序列：根左右</p>
+<p>中序序列：左根右</p>
+<p>后序序列：左右根</p>
+<h2 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h2><h3 id="顺序查找（比较浪费）"><a href="#顺序查找（比较浪费）" class="headerlink" title="顺序查找（比较浪费）"></a>顺序查找（比较浪费）</h3><p>多次比较的基础上实现的</p>
+<h3 id="折半查找（适合顺序排列）"><a href="#折半查找（适合顺序排列）" class="headerlink" title="折半查找（适合顺序排列）"></a>折半查找（适合顺序排列）</h3><p>多次比较，但优于顺序查找</p>
+<h3 id="hash查找"><a href="#hash查找" class="headerlink" title="hash查找"></a>hash查找</h3><p>容易产生冲突，重点是解决冲突</p>
+<p>核心是在hash表中找空位放置元素</p>
+<h4 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h4><h6 id="直接定址法"><a href="#直接定址法" class="headerlink" title="直接定址法"></a>直接定址法</h6><p>元素加上一个常量存储</p>
+<h6 id="除留余数法（用的多）"><a href="#除留余数法（用的多）" class="headerlink" title="除留余数法（用的多）"></a>除留余数法（用的多）</h6><p>对hash表长度取余存储</p>
+<h6 id="数字分析法（较麻烦，不太合适）"><a href="#数字分析法（较麻烦，不太合适）" class="headerlink" title="数字分析法（较麻烦，不太合适）"></a>数字分析法（较麻烦，不太合适）</h6><p>对所有元素进行分析，对取值不集中的两位做地址</p>
+<h6 id="平方取中法"><a href="#平方取中法" class="headerlink" title="平方取中法"></a>平方取中法</h6><p>对元素进行平方，选取中间几位做地址</p>
+<h6 id="折叠法"><a href="#折叠法" class="headerlink" title="折叠法"></a>折叠法</h6><p>将元素分成几段，将这几段相加得地址</p>
+<h6 id="随机乘数法"><a href="#随机乘数法" class="headerlink" title="随机乘数法"></a>随机乘数法</h6><p>将元素和随机的0-1之间的数相乘，获取小数部分和hash表长度相乘，得地址</p>
+<h6 id="基数转换法"><a href="#基数转换法" class="headerlink" title="基数转换法"></a>基数转换法</h6><p>将元素进制进行更换，选取其中部分作为地址</p>
+<h4 id="解决冲突的办法"><a href="#解决冲突的办法" class="headerlink" title="解决冲突的办法"></a>解决冲突的办法</h4><h5 id="开放地址法"><a href="#开放地址法" class="headerlink" title="开放地址法"></a>开放地址法</h5><p>存放函数为除留余数法</p>
+<h6 id="线性探测法"><a href="#线性探测法" class="headerlink" title="线性探测法"></a>线性探测法</h6><p>依次加一寻找空位</p>
+<h6 id="二次探测法"><a href="#二次探测法" class="headerlink" title="二次探测法"></a>二次探测法</h6><p>在冲突位左右寻空位，先加后减</p>
+<h5 id="链地址法"><a href="#链地址法" class="headerlink" title="链地址法"></a>链地址法</h5><p>存放函数是除留余数法</p>
+<p>该方法解决冲突的办法是对有冲突的元素放入一个链表</p>
+<h2 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h2><p>稳定排序与非稳定排序的区别是数据相同的两个元素是否按原顺序排列</p>
+<p>内排序与外排序的区别是数据是否在原位置排列（内排序常见）</p>
+<h3 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h3><p>一个个比较</p>
+<h3 id="shell排序"><a href="#shell排序" class="headerlink" title="shell排序"></a>shell排序</h3><p>基于直接插入排序</p>
+<p>将数组变为n段排序，后续不断把n除2</p>
+<h3 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h3><p>将其中一个元素拿去和最后面&#x2F;最前面比较，需要交换就换，不需要交换就向后&#x2F;向前移动再次比较，一次比较能获得一次基准，将数组分为两部分，再次用这个方法对两部分进行排序直到排好序</p>
 
                 
             </div>
@@ -474,7 +509,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://hhs1231.gitlab.io/goodpapers/index.html">http://hhs1231.gitlab.io/goodpapers/index.html</a>
+                    <a href="http://hhs1231.gitlab.io/2024/10/03/san-shu-ju-jie-gou/">http://hhs1231.gitlab.io/2024/10/03/san-shu-ju-jie-gou/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -679,18 +714,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/goodpapers/index.html">
+                <a href="/2024/10/03/si-io/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="好文收藏">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="IO">
                         
-                        <span class="card-title">好文收藏</span>
+                        <span class="card-title">IO</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -700,9 +734,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-10-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -711,7 +745,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -719,16 +752,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/goodpapers/index.html">
+                <a href="/2024/10/03/liu-wang-luo-ji-chu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="好文收藏">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="网络编程">
                         
-                        <span class="card-title">好文收藏</span>
+                        <span class="card-title">网络编程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -739,7 +772,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-03
                             </span>
                         <span class="publish-author">
                             
@@ -749,7 +782,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>

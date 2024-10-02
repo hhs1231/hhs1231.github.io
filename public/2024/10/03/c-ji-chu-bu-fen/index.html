@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="好文收藏, hhs1231博客">
+    <meta name="keywords" content="基础部分笔记, hhs1231博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>好文收藏 | hhs1231博客</title>
+    <title>基础部分笔记 | hhs1231博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -251,12 +251,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">好文收藏</h1>
+                    <h1 class="description center-align post-title">基础部分笔记</h1>
                 </div>
             </div>
         </div>
@@ -392,28 +392,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-10-01
+                    2024-10-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-10-01
+                    2024-10-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    63
+                    1.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    7 分
                 </div>
                 
 
@@ -441,13 +441,112 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ol>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/273773.html?f=member_collections">我的八年博士生涯</a>         </li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285040.html?f=member_collections">我曾是性用品微商</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285320.html">乔布斯回归：从任性国王到铁腕企业家</a></li>
-<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/a2rscuxJ0fl07OJ-0Shxfg">那些简历造假拿 Offer 的程序员，后来都怎么样了？</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285502.html">知网是个什么东西啊，好暴利</a></li>
-</ol>
+                <h3 id="1-数据类型"><a href="#1-数据类型" class="headerlink" title="1.数据类型"></a>1.数据类型</h3><h5 id="基本类型"><a href="#基本类型" class="headerlink" title="基本类型"></a>基本类型</h5><h6 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h6><p>整型可分为有符号（signed）和无符号（unsigned），short（2byte）、int（4byte）、long（4byte）</p>
+<h6 id="浮点型"><a href="#浮点型" class="headerlink" title="浮点型"></a>浮点型</h6><p>float（4byte）、double（8byte）</p>
+<h6 id="字符型"><a href="#字符型" class="headerlink" title="字符型"></a>字符型</h6><p>char（1byte）</p>
+<h5 id="构造类型"><a href="#构造类型" class="headerlink" title="构造类型"></a>构造类型</h5><h6 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h6><h6 id="结构体struct"><a href="#结构体struct" class="headerlink" title="结构体struct"></a>结构体struct</h6><h6 id="共用体union"><a href="#共用体union" class="headerlink" title="共用体union"></a>共用体union</h6><h6 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h6><h5 id="各数据类型精度"><a href="#各数据类型精度" class="headerlink" title="各数据类型精度"></a>各数据类型精度</h5><table>
+<thead>
+<tr>
+<th align="left">类型</th>
+<th align="left">存储大小</th>
+<th align="left">值范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">char</td>
+<td align="left">1 字节</td>
+<td align="left">-128 到 127 或 0 到 255</td>
+</tr>
+<tr>
+<td align="left">unsigned char</td>
+<td align="left">1 字节</td>
+<td align="left">0 到 255</td>
+</tr>
+<tr>
+<td align="left">signed char</td>
+<td align="left">1 字节</td>
+<td align="left">-128 到 127</td>
+</tr>
+<tr>
+<td align="left">int</td>
+<td align="left">2 或 4 字节</td>
+<td align="left">-32,768 到 32,767 或 -2,147,483,648 到 2,147,483,647</td>
+</tr>
+<tr>
+<td align="left">unsigned int</td>
+<td align="left">2 或 4 字节</td>
+<td align="left">0 到 65,535 或 0 到 4,294,967,295</td>
+</tr>
+<tr>
+<td align="left">short</td>
+<td align="left">2 字节</td>
+<td align="left">-32,768 到 32,767</td>
+</tr>
+<tr>
+<td align="left">unsigned short</td>
+<td align="left">2 字节</td>
+<td align="left">0 到 65,535</td>
+</tr>
+<tr>
+<td align="left">long</td>
+<td align="left">4 字节</td>
+<td align="left">-2,147,483,648 到 2,147,483,647</td>
+</tr>
+<tr>
+<td align="left">unsigned long</td>
+<td align="left">4 字节</td>
+<td align="left">0 到 4,294,967,295</td>
+</tr>
+</tbody></table>
+<p>范围可在&#x2F;usr&#x2F;include&#x2F;limits.h中查询</p>
+<p>查看ASCII码：man ASCII</p>
+<h3 id="2-存储类型"><a href="#2-存储类型" class="headerlink" title="2.存储类型"></a>2.存储类型</h3><h5 id="auto"><a href="#auto" class="headerlink" title="auto"></a>auto</h5><p>范围变量，局部，默认是随机值，默认存储类型</p>
+<h5 id="register"><a href="#register" class="headerlink" title="register"></a>register</h5><p>寄存器型，将变量放入CPU的寄存器中加快程序运行速度。寄存器变量不可用地址，申请不到就使用一般内存，同auto</p>
+<h5 id="static"><a href="#static" class="headerlink" title="static"></a>static</h5><p>静态存储型变量，创建后生命周期直到程序结束，固定地址存放，不是堆栈存放，默认为0</p>
+<h5 id="extern"><a href="#extern" class="headerlink" title="extern"></a>extern</h5><p>全局变量，可在函数体外说明，也可在外部（其他文件）使用，编译时需要带着extern修饰的变量所在的文件，原文件无需使用extern，引用文件需要使用extern修饰该变量</p>
+<h3 id="3-运算符优先级"><a href="#3-运算符优先级" class="headerlink" title="3.运算符优先级"></a>3.运算符优先级</h3><p>z&#x3D;(x+&#x3D;1,y-&#x3D;10);z的值最终会是y-&#x3D;10的值</p>
+<p><img src="/./c%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/c%E8%AF%AD%E8%A8%80%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7001.png"></p>
+<p><img src="/./c%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/c%E8%AF%AD%E8%A8%80%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7002.png"></p>
+<p><img src="/./c%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/c%E8%AF%AD%E8%A8%80%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7003.png"></p>
+<p><img src="/./c%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7%E8%A1%A8.jpg" alt="运算符优先级表"></p>
+<h3 id="4-输入输出函数"><a href="#4-输入输出函数" class="headerlink" title="4.输入输出函数"></a>4.输入输出函数</h3><h4 id="输出函数"><a href="#输出函数" class="headerlink" title="输出函数"></a>输出函数</h4><p>putchar(int c)；输出ASCII码中对应是字符，也可直接传入字符</p>
+<h5 id="格式字符"><a href="#格式字符" class="headerlink" title="格式字符"></a>格式字符</h5><p><strong>1.d 格式字符</strong><br>功能：用来输出十<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=%E8%BF%9B%E5%88%B6&spm=1001.2101.3001.7020">进制</a>数<br>格式：%d：按<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=%E6%95%B4%E5%9E%8B&spm=1001.2101.3001.7020">整型</a>数据的实际长度输出<br>%md：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%ld：输出长整型数据。</p>
+<p><strong>2.o 格式字符</strong><br>功能：以八进制形式输出整数；<br>格式：%o：按整型数据的实际长度输出<br>%mo：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%lo：输出长整型数据。</p>
+<p><strong>3.x 格式字符</strong><br>功能：以十六进制形式输出整数<br>格式:%x：按整型数据的实际长度输出<br>%mx：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%lx：输出长整型数据。</p>
+<p><strong>4.u 格式字符</strong><br>功能：以十进制数输出无符号整数<br>格式：%u：按整型数据的实际长度输出<br>%mu：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%lu：输出长整型数据。</p>
+<p><strong>5.c 格式字符</strong> **<br>功能：输出单个字符<br>格式：%c：按整型数据的实际长度输出<br>%mc：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%lc：输出长整型数据。</p>
+<p><strong>6.s 格式字符</strong><br>功能：输出字符串<br>格式：%s：按整型数据的实际长度输出<br>%ms：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%ls：输出长整型数据。</p>
+<p><strong>7.f 格式字符</strong><br>功能：以小数形式输出单、双精度实数<br>格式：%f：按整型数据的实际长度输出<br>%mf：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%lf：输出长整型数据。</p>
+<p><strong>8.e 格式字符</strong><br>功能：以指数形式输出单、双精度实数<br>格式：%e：按整型数据的实际长度输出<br>%me：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%le：输出长整型数据。</p>
+<p><strong>9.g 格式字符</strong><br>功能：以 %f、%e 中较短的输出宽度输出单、双精度实数<br>格式：%g：按整型数据的实际长度输出<br>%mg：m 为指定的输出字段的宽度。如果数据的位数小于 m，则左端补一空格；若大于 m，则按实际位数输出。<br>%lg：输出长整型数据。</p>
+<p>gets(字符数组);会自动换行</p>
+<p>%p获取变量地址</p>
+<h4 id="输入函数"><a href="#输入函数" class="headerlink" title="输入函数"></a>输入函数</h4><p>getchar()；获取输入的字符【ctrl+d打印出来会是-1】</p>
+<p>想检验输入是否成功可以  n&#x3D;scanf(“%d”,&amp;ch);n的值就代表输入成功了几个数据</p>
+<p>%*d:输入的这个值不会赋给变量，会直接抛弃</p>
+<p>字符型赋值不可用空格、回车进行分割，空格、回车会自动识别成字符，若需要空格、回车进行分割可以使用getchar()对空格、回车这个垃圾字符进行回收，也可使用%*c</p>
+<p>%s会将空格、回车视为截止</p>
+<p>gets(字符数组);可从键盘输入获取字符填入字符数组（只能输入字符数组长度-1），但很危险，如果输入超过了字符数组长度会导致栈溢出（空格会作为字符存入字符数组）</p>
+<h3 id="数组-1"><a href="#数组-1" class="headerlink" title="数组"></a>数组</h3><h5 id="一维数组"><a href="#一维数组" class="headerlink" title="一维数组"></a>一维数组</h5><p>gcc数组下标越界不做检查，数组不做初始化会是随机值，数组不赋值默认为0</p>
+<p>数组长度：sizeof(数组)&#x2F;sizeof(数组数据类型)</p>
+<h5 id="二维数组"><a href="#二维数组" class="headerlink" title="二维数组"></a>二维数组</h5><p>数组长度计算，行：sizeof(数组)&#x2F;sizeof(单行数组)</p>
+<p>​			     列：sizeof(单行数组)&#x2F;sizeof(数据类型)</p>
+<h5 id="字符数组"><a href="#字符数组" class="headerlink" title="字符数组"></a>字符数组</h5><p>字符数组中若没有’\0’，%s会打印到’\0’为止，结果会出现异常</p>
+<p>字符数组可填入字符串，会自动分为字符，最后一个字符会是’\0’，若字符串长度不够会用’\0’填充</p>
+<h3 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h3><h5 id="strlen函数"><a href="#strlen函数" class="headerlink" title="strlen函数"></a>strlen函数</h5><p>获取字符串有效长度（看到’\0’截止，’\0’不计入长度）</p>
+<h5 id="strcpy函数"><a href="#strcpy函数" class="headerlink" title="strcpy函数"></a>strcpy函数</h5><p>字符串拷贝，strncpy(p,p1,n)复制指定长度的字符串，p1前n个字符会被p中前n个字符覆盖</p>
+<p>strncat(p,p1,n)函数是在后面填充n个字符</p>
+<p>strchr(s1,n)正向查找</p>
+<p>strrchr反向查找</p>
+<p>isalpha(P)判断是否为字符</p>
+<p>isupper(p)判断是否为大写</p>
+<p>islower(p)判断是否为小写</p>
+<h1 id="shell命令"><a href="#shell命令" class="headerlink" title="shell命令"></a>shell命令</h1><p>&#x2F;bin&#x2F;bash 换行使用-n</p>
+<p>&#x2F;bin&#x2F;sh 换行使用&#x2F;c</p>
+<p>free(P)会将P指向的堆空间释放，让P变为空悬指针（野指针），这样很危险，后面要让P指向NULL防止出现问题</p>
+<p>指针指向的变量未初始化或者指针操作超越了变量的作用范围（例如数组下标超限），这样的指针是野指针（危险）</p>
+<p>局部变量会跟随函数结束而销毁，如果后续还需要使用则要将这个变量变成静态变量（static）</p>
+<p>指针在函数中赋值字符串常量无法传递给主函数，会造成内存泄漏，字符串常量赋给指针需要在对应（需要使用的）函数中进行</p>
 
                 
             </div>
@@ -474,7 +573,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://hhs1231.gitlab.io/goodpapers/index.html">http://hhs1231.gitlab.io/goodpapers/index.html</a>
+                    <a href="http://hhs1231.gitlab.io/2024/10/03/c-ji-chu-bu-fen/">http://hhs1231.gitlab.io/2024/10/03/c-ji-chu-bu-fen/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -679,18 +778,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/goodpapers/index.html">
+                <a href="/2024/10/03/git-ti-jiao-shan-chu-deng-cao-zuo/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="好文收藏">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="git提交删除等操作">
                         
-                        <span class="card-title">好文收藏</span>
+                        <span class="card-title">git提交删除等操作</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -700,9 +798,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-10-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -711,7 +809,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -719,16 +816,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/goodpapers/index.html">
+                <a href="/2024/10/01/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="好文收藏">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">好文收藏</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -749,7 +846,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>

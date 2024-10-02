@@ -40,7 +40,7 @@ menu:
   #   icon: fas fa-photo
   About:
     url: /about
-    icon: fas fa-user-circle-o
+    icon: fas fa-user
   Friends:
     url: /friends
     icon: fas fa-address-book

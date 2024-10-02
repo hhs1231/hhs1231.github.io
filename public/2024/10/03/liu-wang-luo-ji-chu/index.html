@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="好文收藏, hhs1231博客">
+    <meta name="keywords" content="网络编程, hhs1231博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>好文收藏 | hhs1231博客</title>
+    <title>网络编程 | hhs1231博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -251,12 +251,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">好文收藏</h1>
+                    <h1 class="description center-align post-title">网络编程</h1>
                 </div>
             </div>
         </div>
@@ -392,28 +392,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-10-01
+                    2024-10-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-10-01
+                    2024-10-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    63
+                    2.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    9 分
                 </div>
                 
 
@@ -441,13 +441,170 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ol>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/273773.html?f=member_collections">我的八年博士生涯</a>         </li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285040.html?f=member_collections">我曾是性用品微商</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285320.html">乔布斯回归：从任性国王到铁腕企业家</a></li>
-<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/a2rscuxJ0fl07OJ-0Shxfg">那些简历造假拿 Offer 的程序员，后来都怎么样了？</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.huxiu.com/article/285502.html">知网是个什么东西啊，好暴利</a></li>
+                <h2 id="各层典型协议"><a href="#各层典型协议" class="headerlink" title="各层典型协议"></a>各层典型协议</h2><h3 id="网络接口与物理层"><a href="#网络接口与物理层" class="headerlink" title="网络接口与物理层"></a>网络接口与物理层</h3><p>​	MAC地址：48位全球唯一，网络设备的身份标识</p>
+<p>​	ARP&#x2F;RARP</p>
+<p>​		ARP:IP地址—-&gt;MAC地址</p>
+<p>​		RARP:MAC地址—-&gt;IP地址</p>
+<p>​	PPP协议</p>
+<p>​		拨号协议(GPRS&#x2F;3G&#x2F;4G)</p>
+<h3 id="网络层-IP层"><a href="#网络层-IP层" class="headerlink" title="网络层(IP层)"></a>网络层(IP层)</h3><p>IP: Internet protocol（IPV4&#x2F;IPV6）</p>
+<p>ICMP：Internet控制管理协议，ping命令属于ICMP</p>
+<p>IGMP：Internet分组管理协议，广播，组播</p>
+<h3 id="传输层"><a href="#传输层" class="headerlink" title="传输层"></a>传输层</h3><p>TCP: Transfer Control protocol传输控制协议，提供面向连接的一对一可靠数据传输协议</p>
+<p>UDP: user Datagram Protocol用户数据报协议，提供不可靠无连接的尽力传输协议</p>
+<p>SCTP可靠传输，TCP增强版，可实现多主机多链路通信</p>
+<h3 id="应用层"><a href="#应用层" class="headerlink" title="应用层"></a>应用层</h3><p>网络访问协议HTTP&#x2F;HTTPS</p>
+<p>邮件发送接收协议POP3（收）&#x2F;SMTP（发）、IMAP（可接收邮件的一种协议）</p>
+<p>FTP</p>
+<p>Telnet&#x2F;SSH远程登录</p>
+<h4 id="嵌入式相关"><a href="#嵌入式相关" class="headerlink" title="嵌入式相关"></a>嵌入式相关</h4><p>NTP网络时钟协议</p>
+<p>SNMP简单网络管理协议（实现对网络设备的集中式管理）</p>
+<p>RTP&#x2F;ETSP传输音视频协议（安防监控）</p>
+<h2 id="网络封包拆包"><a href="#网络封包拆包" class="headerlink" title="网络封包拆包"></a>网络封包拆包</h2><p>MTU：Max Transfer Unit最大传输单元，以太网中最大为1500</p>
+<p>MSS：Maxium Segment Size和网络类型、线路、系统特性相关</p>
+<h2 id="Socket"><a href="#Socket" class="headerlink" title="Socket"></a>Socket</h2><p>编程的接口，是一种特殊的文件描述符（对它执行IO操作的函数，read()、write()、close()等操作函数）</p>
+<p>代表网络编程的资源</p>
+<h3 id="socket类型"><a href="#socket类型" class="headerlink" title="socket类型"></a>socket类型</h3><h5 id="流式套接字-SOCK-STREAM"><a href="#流式套接字-SOCK-STREAM" class="headerlink" title="流式套接字 SOCK_STREAM"></a>流式套接字 SOCK_STREAM</h5><p>提供面向连接、可靠的数据传输服务，数据无差错、无重复的发送且按发送顺序接收。内设置流量控制，避免数据淹没慢的接收方。数据被看作是字节流，五长度限制</p>
+<h5 id="数据报套接字-SOCK-DGRAM"><a href="#数据报套接字-SOCK-DGRAM" class="headerlink" title="数据报套接字 SOCK_DGRAM"></a>数据报套接字 SOCK_DGRAM</h5><p>提供无连接服务。数据包以独立数据包形式被发送，不提供无差错保证，数据可能丢失或重复，顺序发送，可能乱序接收</p>
+<h5 id="原始套接字-SOCK-RAW"><a href="#原始套接字-SOCK-RAW" class="headerlink" title="原始套接字 SOCK_RAW"></a>原始套接字 SOCK_RAW</h5><p>可以对较低层次协议如IP、ICMP等直接访问</p>
+<h5 id="IP地址"><a href="#IP地址" class="headerlink" title="IP地址"></a>IP地址</h5><p>IPV4：32为整数</p>
+<p>IPV6：128位整数</p>
+<p>mobileIPV6：local IP本地注册IP，roam IP漫游IP</p>
+<p>IPV4地址：点分形式的32位整数</p>
+<h6 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h6><p>局域网IP：192.XXX.XXX.XXX    10.XXX.XXX.XXX</p>
+<p>广播IP：XXX.XXX.XXX.255   255.255.255.255全网广播</p>
+<p>组播IP：224.XXX.XXX.XXX-239.XXX.XXX.XXX不含广播IP</p>
+<h4 id="端口号"><a href="#端口号" class="headerlink" title="端口号"></a>端口号</h4><p>16位数字（1-65535）</p>
+<p>常见端口：1-1023（FTP:21, SSH:22, HTTP:80, HTTPS:469）</p>
+<p>保留端口：1024-5000（不建议使用）</p>
+<p>可用：5001-65535</p>
+<p>TCP端口和UDP端口相互独立</p>
+<p>网络中通信为IP+端口号决定</p>
+<h4 id="字节序"><a href="#字节序" class="headerlink" title="字节序"></a>字节序</h4><p>不同CPU访问内存中多字节数据的时候存在大小端问题，如CPU访问字符串数据不存在大小端问题</p>
+<p>低对低：小端</p>
+<p>​	低端内存存放低端数据</p>
+<p>低对高：大端</p>
+<p>​	低端内存存放高端数据</p>
+<p>一般X86&#x2F;ARM：小端；powerpc&#x2F;mips，ARM作为路由器：大端</p>
+<p>网络传输：大端</p>
+<p>主机字节序转网络字节序</p>
+<p>u_long htonl(u_long hostlong);</p>
+<p>u_short htons(u_short short);</p>
+<p>网络字节序转主机字节序</p>
+<p>u_long ntohl(u_long hostlong);</p>
+<p>u_short ntohs(u_short short);</p>
+<h5 id="IP地址转换函数"><a href="#IP地址转换函数" class="headerlink" title="IP地址转换函数"></a>IP地址转换函数</h5><p>in_addr_t inet_addr(const char *cp);</p>
+<p>cp:点分形式的IP地址，结果是32位整数（内部包含了字节序的转换，默认是网络字节序的模式）</p>
+<p>仅适用于IPV4，当出错时返回-1，此函数不能用于255.255.255.255的转换</p>
+<p>inet_pton()&#x2F;inet_ntop()</p>
+<p>需要引用arpa&#x2F;inet.h</p>
+<p>int inet_pton(int af, const char *src, void *dst);</p>
+<p>适用于IPV4和IPV6，能正确处理255.255.255.255的转换</p>
+<p>af：地址协议族（AF_INET或AF_INET6）</p>
+<p>src：是一个指针（填写点分形式的IP地址[主要指IPV4]）</p>
+<p>dst：转换的结果给到dst</p>
+<p>成功为1，失败为0 </p>
+<p>const char *inet_ntop(int af, const char *src, void *dst);</p>
+<p>适用于IPV4和IPV6，能正确处理-1的转换</p>
+<p>af：地址协议族（AF_INET或AF_INET6）</p>
+<p>src：是一个指针（32位网络字节序的IP地址）</p>
+<p>dst：输出结果为点分形式的IP地址[主要指IPV4]</p>
+<p>成功返回非空指针，失败返回空指针</p>
+<h2 id="TCP编程API"><a href="#TCP编程API" class="headerlink" title="TCP编程API"></a>TCP编程API</h2><h3 id="socket-创建函数"><a href="#socket-创建函数" class="headerlink" title="socket()创建函数"></a>socket()创建函数</h3><p>需要引用sys&#x2F;types.h&#x2F;sys&#x2F;socket.h</p>
+<p>int socket(int domain, int type, int protocol);</p>
+<p>domain：</p>
+<p>​	AF_INET                              IPV4 Internet protocol</p>
+<p>​	AF_INET6                            IPV6 Internet protocol</p>
+<p>​	AF_UNIX, AF_LOCAL         Local communication（本地属性）</p>
+<p>​	AF_NETLINK                      Kernel user interface device（内核和用户通信）</p>
+<p>​	AF_PACKET                        Low level packet interface</p>
+<p>type：</p>
+<p>​	SOCK_STREAM:流式套接字，唯一对应TCP</p>
+<p>​	SOCK_DGRAM:数据报套接字，唯一对应UDP</p>
+<p>​	SOCK_RAW:原始套接字</p>
+<p>protocol：一般填0，原始套接字编程时需填充</p>
+<p>成功返回文件描述符，失败返回-1</p>
+<h3 id="bind-绑定函数"><a href="#bind-绑定函数" class="headerlink" title="bind()绑定函数"></a>bind()绑定函数</h3><p>需要引用sys&#x2F;types.h&#x2F;sys&#x2F;socket.h</p>
+<p>int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);</p>
+<p>sockfd：通过socket()函数拿到的fd</p>
+<p>addr：struct sockaddr的结构体变量的地址(IPV4:sockaddr_in(man 7 ipv4),IPV6:sockaddr_in6（man 7 ipv6）,通常更通用的方法可以通过struct sockaddr_storage来编程)</p>
+<p>addrlen：地址长度</p>
+<p>成功返回0，失败返回-1</p>
+<h3 id="listen-主动转被动函数"><a href="#listen-主动转被动函数" class="headerlink" title="listen()主动转被动函数"></a>listen()主动转被动函数</h3><p>需要引用sys&#x2F;types.h&#x2F;sys&#x2F;socket.h</p>
+<p>int listen(int sockfd, int backlog);</p>
+<p>backlog：一般填5（同时允许几路客户端和服务器进行连接，ARM最大为8）</p>
+<p>成功返回0，失败返回-1</p>
+<h3 id="accept-阻塞等待客户端连接请求函数"><a href="#accept-阻塞等待客户端连接请求函数" class="headerlink" title="accept()阻塞等待客户端连接请求函数"></a>accept()阻塞等待客户端连接请求函数</h3><p>需要引用sys&#x2F;types.h&#x2F;sys&#x2F;socket.h</p>
+<p>int accept(int sockfd, struct sockaddr *addr, socklen_t addrlen);</p>
+<p>sockfd：经过前面socket()创建并通过bind(),listen()设置过的fd</p>
+<p>addr和addrlen：可获取客户端的IP+端口号</p>
+<p>成功返回已经建立好新的newfd，失败返回-1</p>
+<h3 id="connect-客户端连接函数"><a href="#connect-客户端连接函数" class="headerlink" title="connect()客户端连接函数"></a>connect()客户端连接函数</h3><p>需要引用sys&#x2F;types.h&#x2F;sys&#x2F;socket.h</p>
+<p>int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen);</p>
+<p>和bind()函数类似</p>
+<p>成功返回0，失败返回-1</p>
+<p>INADDR_ANY可以获取程序运行所在主机任意网卡传输过来的数据</p>
+<h3 id="send-write-网络发送数据"><a href="#send-write-网络发送数据" class="headerlink" title="send()&#x2F;write()网络发送数据"></a>send()&#x2F;write()网络发送数据</h3><p>需要引用sys&#x2F;types.h和sys&#x2F;socket.h</p>
+<p>ssize_t send(int sockfd, const void *buf, size_t len, int flags);</p>
+<p>需要引用unisd.h</p>
+<p>ssize_t write(int fd, const void *buf, size_t count);</p>
+<p>send()比write()多一个参数flags：一般填写0（阻塞），此时和write()作用一样</p>
+<p>MSG_DONTWAIT：非阻塞版本</p>
+<p>MSG_OOB：用于发送TCP类型的带外数据(out-of-band)</p>
+<h3 id="recv-read-网络接收数据"><a href="#recv-read-网络接收数据" class="headerlink" title="recv()&#x2F;read()网络接收数据"></a>recv()&#x2F;read()网络接收数据</h3><p>需要引用sys&#x2F;types.h和sys&#x2F;socket.h</p>
+<p>ssize_t recv(int sockfd, void *buf, size_t len, int flags);</p>
+<p>需要引用unisd.h</p>
+<p>ssize_t read(int fd, void *buf, size_t count);</p>
+<p>recv()比read()多一个参数flags：一般填写0（阻塞），此时和write()作用一样</p>
+<p>MSG_DONTWAIT：非阻塞版本</p>
+<p>MSG_OOB：用于发送TCP类型的带外数据(out-of-band)</p>
+<p>MSG_PEEK：读完部分数据后续依旧从头开始读</p>
+<h2 id="阻塞相关函数"><a href="#阻塞相关函数" class="headerlink" title="阻塞相关函数"></a>阻塞相关函数</h2><p>ioctl（int fd, int cmd, long arg）;</p>
+<p>cmd:和IO相关的是FIONBIO，可决定文件描述符是否为阻塞IO</p>
+<p>arg：非零整数即为非阻塞IO</p>
+<p>int fcntl(int fd, int cmd, long arg);</p>
+<p>cmd：为F_GETFL时是获取文件描述符的标志，F_SETFL是设置文件描述符的标志</p>
+<p>函数的结果|&#x3D;O_NONBLOCK即可设置为非阻塞IO</p>
+<h2 id="多路复用"><a href="#多路复用" class="headerlink" title="多路复用"></a>多路复用</h2><p>基本常识：</p>
+<p>linux中每个进程默认情况下，最多可打开1024个文件，最多有1024个文件描述符</p>
+<p>文件描述符的特点：</p>
+<ol>
+<li>非负整数</li>
+<li>从最小可用的数字来分配</li>
+<li>每个进程启动时默认打开0，1，2三个文件描述符</li>
 </ol>
+<p>多路复用针对是不止是文件描述符fd，也包括普通文件描述符fd</p>
+<h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol>
+<li>把关心的文件描述符加入到集合（fd_set：集合长度为maxfd+1，一般是4个字节的整数）中</li>
+<li>调用select()&#x2F;poll()函数去监控集合fd_set中哪些文件描述符（阻塞等待集合中一个或者多个文件描述符有数据）</li>
+<li>当有数据时退出select()阻塞</li>
+<li>依次判断哪个文件描述符有数据</li>
+<li>依次处理有数据的文件描述符上的数据</li>
+</ol>
+<h3 id="fd-set有关的函数"><a href="#fd-set有关的函数" class="headerlink" title="fd_set有关的函数"></a>fd_set有关的函数</h3><p>1.清零集合</p>
+<p>void FD_ZERO(fd_set *fdset)</p>
+<p>2.把fd加入集合</p>
+<p>void FD_SET(int fd, fd_set *fdset)</p>
+<p>3.从集合清除fd</p>
+<p>void FD_CLR(int fd, fd_set *fdset)</p>
+<p>4.判断fd是否在集合中</p>
+<p>int FD_ISSET(int fd, fd_set *fdset)</p>
+<h3 id="阻塞函数"><a href="#阻塞函数" class="headerlink" title="阻塞函数"></a>阻塞函数</h3><p>int select(int nfds, fd_set *readfds, fd_set, *writefds, fd_set *exceptfds, struct timeval *timeout)</p>
+<p>nfds：fd_set集合的长度即maxfd+1</p>
+<p>readfds：读集合</p>
+<p>writefds：写集合，一般为NULL</p>
+<p>exceptfds：异常集合，一般填NULL，除非有带外数据</p>
+<p>timeout：超时阻塞时间</p>
+<p><strong>select()退出后集合中全是有数据的集合</strong></p>
+<p>struct timeval{</p>
+<p>​	long tv_sec;&#x2F;&#x2F;秒</p>
+<p>​	long tv_usec;&#x2F;&#x2F;微秒</p>
+<p>}</p>
+<p>1秒（s）&#x3D;10^3毫秒（ms）&#x3D;10^6微秒（us）&#x3D;10^9纳秒（ns）&#x3D;10^12纳秒（ps）</p>
+<p>if(FD_SET(fd, rset)){</p>
+<p>1.如果此fd为监听套接字则代表有新的客户端连接，则accept()接收</p>
+<p>2.如果是已建立连接的套接字则读数据</p>
+<p>}</p>
 
                 
             </div>
@@ -474,7 +631,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://hhs1231.gitlab.io/goodpapers/index.html">http://hhs1231.gitlab.io/goodpapers/index.html</a>
+                    <a href="http://hhs1231.gitlab.io/2024/10/03/liu-wang-luo-ji-chu/">http://hhs1231.gitlab.io/2024/10/03/liu-wang-luo-ji-chu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -679,18 +836,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/goodpapers/index.html">
+                <a href="/2024/10/03/san-shu-ju-jie-gou/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="好文收藏">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="数据结构">
                         
-                        <span class="card-title">好文收藏</span>
+                        <span class="card-title">数据结构</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -700,9 +856,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-10-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -711,7 +867,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -719,16 +874,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/goodpapers/index.html">
+                <a href="/2024/10/03/da-jian-bo-ke/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="好文收藏">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="hexo-matery版本(gitlab)">
                         
-                        <span class="card-title">好文收藏</span>
+                        <span class="card-title">hexo-matery版本(gitlab)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -739,7 +894,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-10-03
                             </span>
                         <span class="publish-author">
                             
@@ -749,7 +904,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
