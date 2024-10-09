@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>hhs1231博客</title>
+  
+  <subtitle>hhs1231</subtitle>
+  <link href="http://hhs1231.gitlab.io/atom.xml" rel="self"/>
+  
+  <link href="http://hhs1231.gitlab.io/"/>
+  <updated>2024-10-02T22:01:23.228Z</updated>
+  <id>http://hhs1231.gitlab.io/</id>
+  
+  <author>
+    <name>hhs1231</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>并发</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/4.Concurrent/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/4.Concurrent/</id>
+    <published>2024-10-03T15:02:44.239Z</published>
+    <updated>2024-10-02T22:01:23.228Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;并发&quot;&gt;&lt;a href=&quot;#并发&quot; class=&quot;headerlink&quot; title=&quot;并发&quot;&gt;&lt;/a&gt;并发&lt;/h1&gt;&lt;h2 id=&quot;进程&quot;&gt;&lt;a href=&quot;#进程&quot; class=&quot;headerlink&quot; title=&quot;进程&quot;&gt;&lt;/a&gt;进程&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网络编程</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/5.Network-Fundamentals/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/5.Network-Fundamentals/</id>
+    <published>2024-10-03T15:02:44.239Z</published>
+    <updated>2024-10-02T22:01:25.423Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;网络编程&quot;&gt;&lt;a href=&quot;#网络编程&quot; class=&quot;headerlink&quot; title=&quot;网络编程&quot;&gt;&lt;/a&gt;网络编程&lt;/h1&gt;&lt;h2 id=&quot;各层典型协议&quot;&gt;&lt;a href=&quot;#各层典型协议&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-matery版本</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/Create-Blog/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/Create-Blog/</id>
+    <published>2024-10-03T15:02:44.239Z</published>
+    <updated>2024-10-02T22:01:11.868Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hexo-matery版本&quot;&gt;&lt;a href=&quot;#hexo-matery版本&quot; class=&quot;headerlink&quot; title=&quot;hexo-matery版本&quot;&gt;&lt;/a&gt;hexo-matery版本&lt;/h1&gt;&lt;h2 id=&quot;安装博客底层hexo&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git提交删除等操作</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/Git-Operational-Commands/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/Git-Operational-Commands/</id>
+    <published>2024-10-03T15:02:44.239Z</published>
+    <updated>2024-10-02T22:01:13.598Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;git提交删除等操作&quot;&gt;&lt;a href=&quot;#git提交删除等操作&quot; class=&quot;headerlink&quot; title=&quot;git提交删除等操作&quot;&gt;&lt;/a&gt;git提交删除等操作&lt;/h1&gt;&lt;p&gt;同步远程仓库&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>基础部分笔记</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/1.C-Basics-Section/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/1.C-Basics-Section/</id>
+    <published>2024-10-03T15:02:44.223Z</published>
+    <updated>2024-10-02T22:04:23.926Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;基础部分笔记&quot;&gt;&lt;a href=&quot;#基础部分笔记&quot; class=&quot;headerlink&quot; title=&quot;基础部分笔记&quot;&gt;&lt;/a&gt;基础部分笔记&lt;/h1&gt;&lt;h3 id=&quot;1-数据类型&quot;&gt;&lt;a href=&quot;#1-数据类型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/2.Data-Structure/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/2.Data-Structure/</id>
+    <published>2024-10-03T15:02:44.223Z</published>
+    <updated>2024-10-02T22:01:19.326Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;数据结构&quot;&gt;&lt;a href=&quot;#数据结构&quot; class=&quot;headerlink&quot; title=&quot;数据结构&quot;&gt;&lt;/a&gt;数据结构&lt;/h1&gt;&lt;p&gt;perror打印错误信息&lt;/p&gt;
+&lt;h2 id=&quot;线性表&quot;&gt;&lt;a href=&quot;#线性表&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>IO</title>
+    <link href="http://hhs1231.gitlab.io/2024/10/03/3.IO/"/>
+    <id>http://hhs1231.gitlab.io/2024/10/03/3.IO/</id>
+    <published>2024-10-03T15:02:44.223Z</published>
+    <updated>2024-10-02T22:01:21.383Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;IO&quot;&gt;&lt;a href=&quot;#IO&quot; class=&quot;headerlink&quot; title=&quot;IO&quot;&gt;&lt;/a&gt;IO&lt;/h1&gt;&lt;p&gt;标准IO：通过缓冲（缓存）减少系统调用，提高效率&lt;/p&gt;
+&lt;p&gt;无系统代码直接调用硬件，有系统用系统&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
