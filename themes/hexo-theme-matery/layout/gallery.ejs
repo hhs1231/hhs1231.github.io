@@ -1,0 +1,18 @@
+<style type="text/css">
+    /* don't remove. */
+    .about-cover {
+        height: 75vh;
+    }
+</style>
+
+<%- partial('_partial/bg-cover') %>
+
+<main class="content">
+<% if (theme.myGallery && theme.myGallery.enable) { %>
+<%- partial('_widget/my-gallery') %>
+<% } %>
+</main>
+
+<% if (page.total > 1) { %>
+<%- partial('_partial/paging') %>
+<% } %>
